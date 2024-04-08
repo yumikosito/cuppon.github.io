@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/img/Favicon.webp">
+  <!--Link a Font Awesome-->
+  <script src="https://kit.fontawesome.com/12d076cf6f.js" crossorigin="anonymous"></script>
+  <!--Font Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!--Links a Bootstrap 5.3.3-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--Style CSS-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <title>Cuppon</title>
+</head>
+
+<body>
+  <!--Navbar del header con logo-->
+  <header class="roboto-light">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <img src="./assets/img/logo-white.png" width="86" height="25" alt="Logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 roboto-regular">
+                  <li class="nav-item fw-bold">
+                      <a class="text-white nav-link text-bold active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="text-white nav-link" href="#">Descuentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-white nav-link" href="#">Contáctanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-white nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<main class="bg-white container">
+  <div class="row">
+  <!--tarjeta de cada cupon-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+      <div class="card tamano">
+          <img src="./assets/img/Mount_moggle.jpg" class="card-img-top" alt="Mount_moggle">
+          <div class="card-body">
+              <h5 class="card-title">Montura de Moogle gordito para 2 personas</h5>
+              <p class=" fs-5 card-subtitle p-2 text-muted">G'raha Tia</p>
+              <div class="d-flex align-item-left pr-2 pl-2">
+                <!--Icono de lugar mapa-->
+                <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+                <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">The Black Shroud, Aldenard</p>
+              </div>
+              <!--Separador-->
+              <hr class="hr hr-blurry m-3"/>
+      
+              <div class="d-flex justify-content-end ">
+                <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$199.990</h6>
+                <h5 class="card-text roboto-regular text-info fw-bold">$149.990</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Emote_cerveza.jpg" class="card-img-top" alt="Emote_cerveza">
+        <div class="card-body"> 
+            <h5 class="card-title">Pub crawl en 4 de los mejores pubs de Ishgard</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Estinien Wyrmblood</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Fundation, Ishgard</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$49.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$42.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Traje_Tonberry.jpg" class="card-img-top" alt="Traje_Tonberry">
+        <div class="card-body">
+            <h5 class="card-title">Traje de Tonberry, con piel original + cuchillo + lámpara</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Surito Carito</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Upper La Noscea, Vylbrand</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$79.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$39.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Emote_dead.jpg" class="card-img-top" alt="Emote_dead">
+        <div class="card-body">
+            <h5 class="card-title">2 Lalafells listos para ritual de aumento de suerte</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Tataru Taru</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Kugane, Hingashi</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$179.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$99.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Mount_nube.jpg" class="card-img-top" alt="Mount_nube">
+        <div class="card-body">
+            <h5 class="card-title">Nube voladora, la original del famoso Kokún</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Lolorito Nanarito</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">The Syndicate, Ul'dah</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$599.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$459.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Traje_Yuna.jpg" class="card-img-top" alt="Traje_Yuna">
+        <div class="card-body">
+            <h5 class="card-title">Traje de invocador de Primals</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Ysayle Dangoulain</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Coerthas Central Highlands, Ishgard</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$89.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$45.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Emote_baile.jpg" class="card-img-top" alt="Emote_baile">
+        <div class="card-body">
+            <h5 class="card-title">Viaje de 3 días/2 noches en Costa del Sol</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Mayaru Moyaru</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Eastern La Noscea, Vylbrand </p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$699.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$598.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Traje_Moggle.jpg" class="card-img-top" alt="Traje_Moggle">
+        <div class="card-body">
+            <h5 class="card-title">Traje de Moggle, con piel original</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Teledji Adeledji</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Platinum Mirage, Ul'dah</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$210.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$179.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Tarjeta-->
+  <div class="d-flex col-md-4 col-sm-12 mt-4 mb-4 justify-content-center">
+    <div class="card tamano">
+        <img src="./assets/img/Traje_maid.jpg" class="card-img-top" alt="Traje_maid">
+        <div class="card-body">
+            <h5 class="card-title">Traje de maid completo + Curso de Entrenamiento</h5>
+            <p class=" fs-5 card-subtitle p-2 text-muted">Melkoko Melko</p>
+            <div class="d-flex align-item-left pr-2 pl-2">
+              <p class="card-subtitle mb-0 text-muted"><i class=" p-2 fas fa-map-marker-alt fa-xs"></i></p>
+              <p class="fs-6 card-subtitle mb-0 text-muted roboto-light">Limsa Lominsa, Vylbrand</p>
+            </div>
+            <hr class="hr hr-blurry m-3"/>
+    
+            <div class="d-flex justify-content-end ">
+              <h6 class="card-text text-muted m-1 roboto-light text-decoration-line-through">$129.990</h6>
+              <h5 class="card-text roboto-regular text-info fw-bold">$109.990</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</main>
+
+<!--Seccion de formulario-->
+<section class="text-center p-3 text-white text-bold">
+    <h4 class="mb-0 pt-2 text-center fw-bold">Recibe cupones en tu correo</h4>
+  <form>
+    <div class="form-group mt-0">
+      <label for="InputNombre"></label>
+      <input type="name" class="form-control" id="InputNombre" aria-describedby="emailHelp" placeholder="Nombre">
+    </div>
+    <div class="form-group mg-0 mb-2">
+      <label for="inputCorreo"></label>
+      <input type="correo" class="form-control" id="inputCorreo" placeholder="Correo Electronico">
+    </div>
+    <button type="submit" class="btn btn-light">Enviar</button>
+  </form>
+</section>
+
+</body>
+<!--Footer con logo y derechos-->
+<footer class="bg-body-white text-center p-3">
+  <div class="container p-2">
+    <img src="./assets/img/logo-black.png" width="82px" height="24px" alt="Logo">
+
+  </div>
+  <div class="text-center p-1 text-muted">
+    <h5>© 2018 Cuppon Latam. Todos los derechos reservados.</h5>
+  </div>
+
+</footer>
+</html>

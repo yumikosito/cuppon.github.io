@@ -1,0 +1,26 @@
+.roboto-regular {/*Font regular*/
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-light { /*Font light*/
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+main img{ /*Tamaño maximo para imagenes en cupones*/
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.tamano { /*Tamaño maximo de tarjetas*/
+  max-width: 300px;
+}
+
+header, section{
+  background-color: #ff8fab;
+}
+a:hover {
+  background-color: #52b2cf;
+}
